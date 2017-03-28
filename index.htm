@@ -1,0 +1,133 @@
+<!DOCTYPE xmln="http://www.w3.org//xhtml">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>中国商品信息防伪验证中心</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<script src="fwcx.js"></script>
+<script src="https://apps.bdimg.com/libs/jquery/1.4.2/jquery.min.js"></script>
+<style type="text/css">
+body {
+	font-family:黑体;
+	margin:auto;
+	width:830px;
+	font-size:12px;
+	background:#eeeeec;
+	color:#333333;
+}
+.bt {
+	font-size:38px;
+	font-weight:bold;
+}
+.lab {
+    font-size:16px;
+	letter-spacing:1px;
+	color:#ffffff;
+	font-family:微软雅黑
+}
+.sel {
+	display:inline-block;
+	background:url(./images/anniu.png);
+	height:24px;
+	width:86px;
+	overflow:hidden;
+	cursor: pointer;
+}
+#cxjg {
+	background-image: url(./images/cxjg.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+#cxts {
+	background-image: url(./images/cxts.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+#ts {
+}
+#ts span {
+	font-family:宋体;
+	font-size:14px;
+	padding:0px 50px;
+	line-height:20px;
+	color:#666666;
+}
+.head_png {
+	padding:0px;
+	margin-top:0px;
+	margin-left:0px;
+	position:relative;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+#ReturnResult{
+	color:#ff0000;
+	text-align:center;
+	font-size: 16px;
+	font-weight: bold;
+}
+.footer {
+	font-family:宋体;
+	font-size:12px;
+	color:#666666;
+	line-height:20px;
+}
+</style>
+</head>
+<body>
+<table width="830" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tbody><tr>
+    <td height="20" align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">
+    <table width="666" border="0" cellspacing="0" cellpadding="0">
+      <tbody><tr>
+        <td width="86" height="83" align="center"><img src="./images/logo.png" alt="LOGO"></td>
+        <td width="580" align="left" class="bt">&nbsp;中国商品信息防伪验证中心</td>
+      </tr>
+    </tbody></table>    </td>
+  </tr>
+  <tr>
+    <td height="20" align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="107" align="center" background="./images/submitbg.png">
+    <table border="0" cellspacing="0" cellpadding="0">
+      <tbody><tr>
+        <td align="right" class="lab">请输入防伪码：</td>
+        <td width="320"><input name="bianhao" type="text" id="FwCodec" style="border:none; line-height:24px; height:24px; width:320px;"></td>
+                <td align="left" style="padding-left:10px;">
+          <a class="sel" onclick="fwchack('FwCodec','ReturnResult')">&nbsp;</a>
+          </td>
+      </tr>
+    </tbody></table>    </td>
+  </tr>
+  <tr>
+    <td height="20">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="164" align="left" valign="top" id="cxjg">
+    <div class="head_png"><img src="./images/cxjgxsq.png"></div><br>
+    <div id="ReturnResult">请刮开防伪标签上灰色涂层，本网页输入框内依次输入16位防伪码（无空格），然后点查询键即可。</div>
+    </td>
+  </tr>
+  <tr>
+    <td height="20">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="196" align="left" valign="top" id="cxts">
+    <div class="head_png"><img src="./images/wxts.png"></div>
+    <div id="ts">
+    <span>请刮开您所购买商品上的防伪标识,在本页查询验证码框里输入防伪码</span><br>
+    <span>请确保输入的防伪码正确无误,在输入防伪码后 点击立即验证,即可识别产品真伪</span><br>
+    <span>如果您输入的防伪码正确无误,则系统系统提示:您购买的商品是正品,并显示相关产品信息</span><br>
+    <span>如果您输入的防伪码在数据库里不存在或已被过期删除，则系统提示:该条码不存在,请谨防假冒</span><br>
+    <span>免责声明:本系统仅能验证产品所属生产厂商或服务商,商品售后服务请直接联系您的售商,请知悉 </span>
+    </div>
+    </td>
+  </tr>
+  <tr>
+    <td height="35" align="center" class="footer">Copyright 2010-2017 中国商品信息防伪验证中心 （http://www.china15315.com/）All Right Reserved </td>
+  </tr>
+</tbody></table>
+</body></html>
